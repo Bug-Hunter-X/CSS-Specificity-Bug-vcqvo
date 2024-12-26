@@ -1,0 +1,19 @@
+/* Solution: Improved Specificity and Removed !important */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin-bottom: 10px; 
+}
+
+.box.special {
+  background-color: lightcoral;
+}
+
+/* More specific selector for .box.special overrides the previous style without using !important */
